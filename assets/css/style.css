@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #37192c;
+    color: #fff;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../images/pearl_jam.webp);
+    background-size: cover;
+    text-align: center;
+}
+
+header h2 {
+    margin-top: 2rem;
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+main {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 80%;
+    border-radius: 5%;
+}
+
+.photo figcaption {
+    padding-top: 0.5rem;
+}
+
+p {
+    margin: 1rem 0 1rem 0;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
